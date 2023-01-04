@@ -116,3 +116,36 @@ body{
           background-position: 75% 0%; 
      }
 }
+@media (min-width: 481px) and (max-width:769px){
+body{
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+     .main{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: repeat(2, min-content);
+          grid-column-gap: 20px;
+          //width: 75%;
+     }
+     .box1{
+          grid-column:1/3;
+     }
+     .box5{
+          grid-column:1/4;
+          grid-row:;
+     }
+     .box4{
+          grid-column: 2/4;
+          
+     }
+     .highlight{
+          font-size: 10px;
+     }
+     .box1{
+          background-position: 75% 0%; 
+     }
+}
