@@ -83,7 +83,7 @@ body{
 .box3 .test, .box5 .test{
      color: hsl(217, 19%, 70%);
 }
-@media (min-width: 769px){
+@media (min-width: 769px) and (max-width:1440px){
      body{
           height: 100vh;
           display: flex;
