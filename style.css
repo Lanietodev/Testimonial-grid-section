@@ -96,6 +96,7 @@ body{
           grid-template-columns: repeat(4, 1fr);
           grid-template-rows: repeat(2, min-content);
           grid-column-gap: 20px;
+          width: 75%;
      }
      .box1{
           grid-column:1/3;
