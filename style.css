@@ -85,7 +85,6 @@ body{
 }
 @media (min-width: 769px) and (max-width:1440px){
      body{
-          height: 100vh;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -117,8 +116,7 @@ body{
      }
 }
 @media (min-width: 481px) and (max-width:769px){
-body{
-          height: 100vh;
+     body{
           display: flex;
           flex-direction: column;
           justify-content: center;
